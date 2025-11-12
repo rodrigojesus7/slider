@@ -1,16 +1,18 @@
-:root{
+:root {
     --card-color: #FFFFFF;
     --saiba-mais-color: #C50000;
-
+    --saiba-mais-color-2: #D9DD10;
+    --saiba-mais-color-3: #A63A17;
+    --saiba-mais-color-4: #10ACDD;
 }
 
 
-body{
+body {
     font-family: Roboto, sans-serif;
 }
 
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +24,7 @@ body{
 }
 
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     background-color: var(--card-color);
@@ -33,9 +35,10 @@ body{
     margin-bottom: 19.4rem;
     margin-right: 99.4rem;
     gap: 5rem;
+    border-radius: 1rem;
 }
 
-.card-content{
+.card-content {
     display: flex;
     flex-direction: column;
     gap: 8rem;
@@ -43,12 +46,12 @@ body{
     margin-left: 6rem;
 }
 
-.card-title{
+.card-title {
     font-size: 5rem;
     font-weight: 400;
 }
 
-.card-text{
+.card-text {
     font-size: 2.5rem;
     font-weight: 300;
     max-height: 34.6rem;
@@ -56,22 +59,39 @@ body{
     line-height: 3.5rem;
 }
 
-.saiba-mais{
+.saiba-mais {
     font-size: 3rem;
     font-weight: 700;
     color: var(--saiba-mais-color);
     margin-left: 6rem;
+    cursor: pointer;
 }
 
-.seta{
+
+.saiba-mais-2 {
+    color: var(--saiba-mais-color-2);
+}
+.saiba-mais-3 {
+    color: var(--saiba-mais-color-3);
+}
+.saiba-mais-4 {
+    color: var(--saiba-mais-color-4);
+}
+
+.seta {
     height: 7.8rem;
     width: 4.9rem;
 }
 
-.seta.esquerda{
+.seta.esquerda {
     margin-left: 7rem;
 }
 
-.seta.direita{
+.seta.direita {
     margin-right: 7rem;
+}
+
+
+.seta-opaca {
+    opacity: 50%;
 }
