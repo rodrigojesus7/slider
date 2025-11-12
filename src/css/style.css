@@ -1,0 +1,77 @@
+:root{
+    --card-color: #FFFFFF;
+    --saiba-mais-color: #C50000;
+
+}
+
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-height: 100vh;
+    background-image: url(../images/imagem1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-color);
+    height: 70rem;
+    width: 62rem;
+    margin-top: 18.6rem;
+    margin-left: 6.1rem;
+    margin-bottom: 19.4rem;
+    margin-right: 99.4rem;
+    gap: 5rem;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    margin-top: 6.5rem;
+    margin-left: 6rem;
+}
+
+.card-title{
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.card-text{
+    font-size: 2.5rem;
+    font-weight: 300;
+    max-height: 34.6rem;
+    max-width: 50rem;
+    line-height: 3.5rem;
+}
+
+.saiba-mais{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--saiba-mais-color);
+    margin-left: 6rem;
+}
+
+.seta{
+    height: 7.8rem;
+    width: 4.9rem;
+}
+
+.seta.esquerda{
+    margin-left: 7rem;
+}
+
+.seta.direita{
+    margin-right: 7rem;
+}
