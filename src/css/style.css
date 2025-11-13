@@ -18,9 +18,34 @@ body {
     align-items: center;
     min-height: 100vh;
     max-height: 100vh;
+    
+}
+
+.container-1{
     background-image: url(../images/imagem1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-2{
+    background-image: url(../images/imagem2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container-3{
+    background-image: url(../images/imagem3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container-4{
+    background-image: url(../images/imagem4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 
@@ -81,6 +106,7 @@ body {
 .seta {
     height: 7.8rem;
     width: 4.9rem;
+    cursor: pointer;
 }
 
 .seta.esquerda {
